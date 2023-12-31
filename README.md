@@ -21,6 +21,11 @@ In Unity set your avatar up with avatar 3.0 parameters:
   previous-track : bool  
   vol-slider : float  
   now-playing : bool  
+  isMuteSelf : bool - check mute
+
+  return params
+  isPlay: bool - if music play true 
+  
 
 The names of the parameters must match exactly.
 
@@ -70,6 +75,5 @@ Search for "Sound mixer options" in Windows start, find Spotify and make sure th
 
 ![Spotify_Sound_Mixer_Options](https://user-images.githubusercontent.com/21070138/193977233-02f91a50-6e4a-4fe9-9b4c-84d13a9ca918.png)
 
-pyinstaller main.py --hidden-import pywin32 --hidden-import pycaw --hidden-import winsdk --onefile --console --clean --name VRCspotify --icon "C:/Users/Denis_Hik/Download
-s/spotify.ico"
+pyinstaller main.py --hidden-import pywin32 --hidden-import pycaw --hidden-import winsdk --onefile --console --clean --name VRCspotify --icon "C:/Users/Denis_Hik/Downloads/spotify.ico"
 
