@@ -5,10 +5,8 @@ Supports now playing text using VRChat chatbox
 
 ##Support app
 
--Spotify
-
--Chrome
-
+-Spotify<br/>
+-Chrome<br/>
 -Yandex music
 
 ## Usage
