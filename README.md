@@ -4,6 +4,7 @@ Media controller for Spotify using VRChat OSC
 Supports now playing text using VRChat chatbox
 
 ##Support app
+
 -Spotify
 -Chrome
 -Yandex music
