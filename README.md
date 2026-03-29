@@ -3,6 +3,12 @@
 Media controller for Spotify using VRChat OSC  
 Supports now playing text using VRChat chatbox
 
+##Support app
+
+-Spotify<br/>
+-Chrome<br/>
+-Yandex music
+
 ## Usage
 
 #### Now Playing Chatbox
@@ -21,6 +27,11 @@ In Unity set your avatar up with avatar 3.0 parameters:
   previous-track : bool  
   vol-slider : float  
   now-playing : bool  
+  isMuteSelf : bool - check mute
+
+  return params
+  isPlay: bool - if music play true 
+  
 
 The names of the parameters must match exactly.
 
